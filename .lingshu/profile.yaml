@@ -1,0 +1,9 @@
+coding_style: 函数式优先
+disliked_patterns:
+- 魔法数字
+- 过度设计
+favorite_tools:
+- FastAPI
+key:
+- value
+language: 中文交流

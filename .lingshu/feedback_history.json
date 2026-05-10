@@ -1,0 +1,390 @@
+{
+  "actions": [
+    {
+      "action_type": "teach",
+      "key": "teach_coding_style",
+      "detail": "coding_style = 函数式优先 (project)",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T14:13:45.428155",
+      "context": {}
+    },
+    {
+      "action_type": "teach",
+      "key": "teach_coding_style",
+      "detail": "coding_style = 函数式优先 (project)",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T14:16:58.145058",
+      "context": {}
+    },
+    {
+      "action_type": "command",
+      "key": "run",
+      "detail": "test",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T14:17:47.842001",
+      "context": {}
+    },
+    {
+      "action_type": "teach",
+      "key": "teach_favorite_tools",
+      "detail": "favorite_tools = FastAPI (project)",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T14:20:09.920818",
+      "context": {}
+    },
+    {
+      "action_type": "teach",
+      "key": "teach_coding_style",
+      "detail": "coding_style = 函数式优先 (project)",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T14:21:59.777674",
+      "context": {}
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "hello",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T19:08:57.175177",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "hello",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T19:10:06.743198",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "hello",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T19:14:59.794549",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T19:32:45.911983",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T19:47:22.749910",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T19:52:03.077854",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T19:56:15.651245",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:07:00.523041",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:20:38.268164",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:30:33.342111",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:33:49.796200",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:43:15.887657",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:48:01.866800",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:48:55.471407",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "test",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T20:59:08.176991",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "fix parser bug",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T21:00:50.928527",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T21:03:26.514733",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "你的任务描述",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T21:04:30.249253",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T21:34:13.189011",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "你的任务描述",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T21:35:16.090755",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py 中特殊字符导致崩溃的问题",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T22:29:12.712608",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "修复 parser.py...",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T22:36:58.986678",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    },
+    {
+      "action_type": "command",
+      "key": "run_task",
+      "detail": "fdf",
+      "duration_ms": 0.0,
+      "success": true,
+      "timestamp": "2026-05-10T23:10:54.213738",
+      "context": {
+        "mode": "task",
+        "strategy": "normal",
+        "flags": [],
+        "file_count": 0
+      }
+    }
+  ],
+  "patterns": {
+    "cmd_pair_run_task_run_task": {
+      "frequency": 14,
+      "confidence": 0.9,
+      "last_observed": "2026-05-10T20:59:08.176991",
+      "examples": [
+        "run_task → run_task"
+      ]
+    }
+  },
+  "counters": {
+    "commands": {
+      "run_task": 23,
+      "run": 1
+    },
+    "flags": {},
+    "rejects": {}
+  },
+  "updated_at": "2026-05-10T23:10:54.214282"
+}
