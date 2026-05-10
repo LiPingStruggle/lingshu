@@ -1,0 +1,28 @@
+{
+  "task_id": "REF001",
+  "type": "refactor",
+  "description": "Refactor auth module to improve maintainability",
+  "dependencies": [],
+  "steps": [
+    {
+      "step_id": "S001",
+      "description": "Analyze current auth.py structure",
+      "assigned_agent": "elite"
+    },
+    {
+      "step_id": "S002",
+      "description": "Split auth.py into multiple files per function",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S003",
+      "description": "Update imports and references",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S004",
+      "description": "Run static analysis and review",
+      "assigned_agent": "strong"
+    }
+  ]
+}

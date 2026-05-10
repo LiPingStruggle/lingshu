@@ -1,0 +1,62 @@
+# LingShu 模型路由配置
+# 4 级模型分层 + fallback 链
+
+elite:
+  name: claude-sonnet-4
+  provider: anthropic
+  tier: 5
+  context_window: 200000
+  max_tokens: 8192
+  description: 根因分析 / 高级决策 / 任务拆解
+
+strong:
+  name: gpt-4.1
+  provider: openai
+  tier: 4
+  context_window: 128000
+  max_tokens: 4096
+  description: 架构设计 / Reviewer / 质量复核
+
+medium:
+  name: gpt-4o-mini
+  provider: openai
+  tier: 3
+  context_window: 128000
+  max_tokens: 4096
+  description: 轻量分析 / 辅助验证
+
+light:
+  name: LongCat-Flash-Lite
+  provider: longcat
+  tier: 2
+  context_window: 128000
+  max_tokens: 4096
+  base_url: https://api.longcat.chat/openai/v1
+  api_key: ak_2Y39CK78A6DI6ry4El89o29P6Hb65
+  description: 代码生成 / 测试执行 / 工具操作
+
+local:
+  name: qwen2
+  provider: ollama
+  tier: 1
+  context_window: 32768
+  base_url: http://localhost:11434/v1
+  description: 本地模型 / 离线推理
+
+# Fallback 链: local → light → medium → strong → elite
+fallback_chain:
+  - local
+  - light
+  - medium
+  - strong
+  - elite
+
+# 各角色最低模型层级门槛
+role_min_tier:
+  analyzer: 4
+  root_cause: 5
+  reviewer: 4
+  architect: 4
+  worker: 2
+  editor: 2
+  advisor: 5

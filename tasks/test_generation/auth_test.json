@@ -1,0 +1,23 @@
+{
+  "task_id": "TEST002",
+  "type": "test_generation",
+  "description": "Generate unit tests for auth module",
+  "dependencies": ["BUG002"],
+  "steps": [
+    {
+      "step_id": "S001",
+      "description": "Analyze auth module functions and flows",
+      "assigned_agent": "elite"
+    },
+    {
+      "step_id": "S002",
+      "description": "Generate pytest test cases covering login, register, password reset",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S003",
+      "description": "Run tests and review coverage report",
+      "assigned_agent": "strong"
+    }
+  ]
+}

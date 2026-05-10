@@ -1,0 +1,1 @@
+# Adapters Package - 外部工具适配器

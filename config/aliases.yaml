@@ -1,0 +1,28 @@
+# LingShu Agent 与模型别名
+# 用于简化和统一引用
+
+aliases:
+  # Agent 角色别名
+  elite: claude-sonnet-4
+  strong: gpt-4.1
+  medium: gpt-4o-mini
+  light: gemini-2.0-flash
+  local: qwen2
+
+  # 功能别名
+  analyzer: elite
+  root_cause: elite
+  planner: elite
+  architect: strong
+  reviewer: strong
+  approver: strong
+  executor: light
+  editor: light
+  tester: light
+
+  # provider 别名
+  anthropic: claude-sonnet-4
+  openai-strong: gpt-4.1
+  openai-light: gpt-4o-mini
+  google-fast: gemini-2.0-flash
+  ollama-local: qwen2

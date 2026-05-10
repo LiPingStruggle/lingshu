@@ -1,0 +1,28 @@
+{
+  "task_id": "REF002",
+  "type": "refactor",
+  "description": "Refactor database layer to use async queries",
+  "dependencies": [],
+  "steps": [
+    {
+      "step_id": "S001",
+      "description": "Analyze current db.py structure and query patterns",
+      "assigned_agent": "elite"
+    },
+    {
+      "step_id": "S002",
+      "description": "Rewrite sync queries to async using aiosqlite",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S003",
+      "description": "Add error handling and connection pooling",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S004",
+      "description": "Review all changes and run tests",
+      "assigned_agent": "strong"
+    }
+  ]
+}

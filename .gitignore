@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+*.egg/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Checkpoint
+.lingshu/
+
+# Environment
+.env
+.env.*
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Config with secrets (keep template)
+config/*.local.yaml
+
+# Node
+node_modules/
+
+# Go
+go_exec/worker
+*.exe
+
+# Coverage
+htmlcov/
+.coverage
+.coverage.*

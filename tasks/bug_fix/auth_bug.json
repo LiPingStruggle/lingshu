@@ -1,0 +1,28 @@
+{
+  "task_id": "BUG002",
+  "type": "bug_fix",
+  "description": "Fix new user login failure",
+  "dependencies": [],
+  "steps": [
+    {
+      "step_id": "S001",
+      "description": "Analyze auth flow for new users",
+      "assigned_agent": "elite"
+    },
+    {
+      "step_id": "S002",
+      "description": "Fix login validation for new users",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S003",
+      "description": "Add integration test for new user login",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S004",
+      "description": "Review changes for security and correctness",
+      "assigned_agent": "strong"
+    }
+  ]
+}

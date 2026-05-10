@@ -1,0 +1,28 @@
+{
+  "task_id": "BUG001",
+  "type": "bug_fix",
+  "description": "Fix parser crash when input contains special characters",
+  "dependencies": [],
+  "steps": [
+    {
+      "step_id": "S001",
+      "description": "Analyze parser.py input handling",
+      "assigned_agent": "elite"
+    },
+    {
+      "step_id": "S002",
+      "description": "Modify parse_input() to handle special characters",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S003",
+      "description": "Add unit tests for parse_input()",
+      "assigned_agent": "light"
+    },
+    {
+      "step_id": "S004",
+      "description": "Review changes and ensure no regressions",
+      "assigned_agent": "strong"
+    }
+  ]
+}

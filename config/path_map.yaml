@@ -1,0 +1,32 @@
+# LingShu 项目路径映射
+# 定义各模块的路径，用于 Agent 读写文件
+
+project_root: ./
+
+paths:
+  core: ./core/
+  agents: ./agents/
+  adapters: ./adapters/
+  memory: ./memory/
+  workflows: ./workflows/
+  tasks: ./tasks/
+  config: ./config/
+  tests: ./tests/
+  plugins: ./plugins/
+  tools: ./tools/
+  docs: ./docs/
+
+  # RPC / 服务
+  rpc_server: ./rpc_server.py
+  batch_runner: ./batch_runner.py
+  main_entry: ./main.py
+
+  # Go 高并发执行器
+  go_exec: ./go_exec/
+
+  # SQLite 数据库
+  database: ./lingshu.db
+
+  # 检查点目录
+  checkpoint_dir: ./.lingshu/
+  engine_checkpoint: ./.lingshu/engine_checkpoint.json
