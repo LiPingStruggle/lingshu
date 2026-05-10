@@ -162,7 +162,7 @@ def run(
             table.add_row(
                 p.get("name", "?"),
                 p.get("status", "?"),
-                (p.get("summary", "") or "")[:60],
+                (p.get("summary", "") or ""),
             )
         console.print(table)
 

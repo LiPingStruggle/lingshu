@@ -884,13 +884,17 @@ class Orchestrator:
         patch = ""
 
         for line in review_result.split("\n"):
-            if "VERDICT" in line and "PASS" in line.upper():
-                passed = True
+            if "VERDICT" in line:
+                verdict_text = line.upper()
+                if "PASS" in verdict_text:
+                    passed = True
             elif "QUALITY_SCORE" in line:
                 num = "".join(c for c in line if c.isdigit() or c == ".")
                 if num:
                     quality_score = float(num.rstrip(".%"))
                     if quality_score >= 60:
+                        passed = True
+                    if quality_score >= 90:
                         passed = True
             elif "FEEDBACK" in line:
                 feedback = line.split(":", 1)[-1].strip()
@@ -906,7 +910,7 @@ class Orchestrator:
             "quality_score": quality_score,
             "feedback": feedback or review_result[:200],
             "patch": patch,
-            "summary": review_result[:500],
+            "summary": review_result,
             "detail": review_result,
             "evidence": [{
                 "type": "review_result",

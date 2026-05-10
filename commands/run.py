@@ -13,6 +13,7 @@ from typing import Optional
 import typer
 from rich.console import Console
 from rich.table import Table
+from rich.panel import Panel
 
 from core.orchestrator import Orchestrator
 from core.orchestration_core import IntelligentOrchestrator
@@ -71,12 +72,27 @@ def run_command(
         table.add_column("Status", style="green")
         table.add_column("Detail")
         for p in phases:
-            table.add_row(
-                p.get("name", "?"),
-                p.get("status", "?"),
-                (p.get("summary", "") or "")[:60],
-            )
+            detail = (p.get("summary", "") or "")
+            table.add_row(p.get("name", "?"), p.get("status", "?"), detail)
         console.print(table)
+
+    console.print()
+    for p in phases:
+        name = p.get("name", "?")
+        summary = p.get("summary", "") or ""
+        feedback = p.get("feedback", "") or ""
+        score = p.get("quality_score", "")
+        
+        if summary or feedback:
+            panel = Panel(
+                f"[bold]分阶段详情:[/bold] {name}\n\n"
+                f"{summary}\n"
+                + (f"\n[bold]反馈:[/bold] {feedback}" if feedback else "")
+                + (f"\n[bold]质量评分:[/bold] {score}" if score != "" else ""),
+                title=f"📋 {name} 详情",
+                border_style="cyan",
+            )
+            console.print(panel)
 
     global_result = result.get("global_result") or phases[0].get("global_result", "") if phases else ""
     if global_result:
